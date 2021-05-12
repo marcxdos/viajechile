@@ -21,3 +21,15 @@ i{
     background-color: #3cc4d4; 
     color:white;
 }
+
+p{
+    color: white;
+}
+
+/* Footer*/
+#Footer{
+    background-color: #3cc4d4;
+}
+#Footer h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

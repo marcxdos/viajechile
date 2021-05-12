@@ -20,9 +20,10 @@
 
 <body>
     <div>
-        <nav class="navbar navbar-expand-lg navbar-white bg-transparent">
+        <nav  class="navbar navbar-expand-lg navbar-white bg-transparent fixed-top">
             <div class="container">
-                <a class="navbar-brand" href="#"><img src="./assets/img/viajes.svg" alt="" style="width: 5%;"> Viajes
+                <a id="inicio" class="navbar-brand" href="#inicio" style="color: white;"><img src="./assets/img/viajes.svg" alt=""
+                        style="width: 5%;"> Viajes
                     Chile</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -33,16 +34,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Inicio</a>
+                            <a class="nav-link active" href="#inicio" style="color:white">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Quienes Somos</a>
+                            <a class="nav-link" href="#quienes" style="color:white">Quienes Somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Destacados</a>
+                            <a class="nav-link" href="#destacados" style="color:white">Destacados</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
+                            <a class="nav-link" href="#contacto" style="color:white">Contacto</a>
                         </li>
                 </div>
             </div>
@@ -70,8 +71,8 @@
         </div>
     </div>
     <header id="Hero-Section">
-        <div class="text-center text-white">
-            <h1>¿Quienes somos?</h1>
+        <div id="quienes" class="text-center text-white pt-5">
+            <h3>¿Quienes somos?</h3>
             <hr class="hero-line container" style="background-color: cyan; margin:auto;">
         </div>
     </header>
@@ -80,10 +81,14 @@
     <section class="pt-5 d-none d-sm-block container" id="Sobre-mi">
         <div class="row pt-3">
             <div class="col-4">
-                <i class="fas fa-plane container text-center" ></i>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat architecto voluptate et expedita
+                <i class="fas fa-plane container text-center" style="height: 10%;"></i>
+                <p style="color: white;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat architecto
+                    voluptate et expedita
                     earum, ab corporis iure soluta id pariatur? Eveniet repudiandae blanditiis, quidem impedit nemo at
-                    quibusdam non quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Et minus hic laboriosam
+                    quibusdam non quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque fugit maxime
+                    quas! Veniam obcaecati consequuntur, rem cum nulla neque eum alias, ipsum commodi dolores
+                    consequatur sit enim debitis necessitatibus praesentium? Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Et minus hic laboriosam
                     omnis similique vero. Quam, nisi! Nam maiores vel placeat accusamus officiis. Ullam, sint sapiente.
                     Quam reprehenderit enim <repudiandae class="lorem"></repudiandae>
                 </p>
@@ -96,10 +101,10 @@
                     ipsum tempora reiciendis nemo. Assumenda, asperiores?Lorem ipsum dolor sit amet consectetur
                     adipisicing elit. Amet qui facere labore vel, id, nemo temporibus saepe tenetur distinctio assumenda
                     maiores, totam excepturi. Aliquam possimus consequuntur adipisci commodi esse harum?</p>
-                <i class="fas fa-mountain container text-center"></i>
+                <i class="fas fa-mountain container text-center" style="height: 10%;"></i>
             </div>
             <div class="col-4">
-                <i class="fas fa-route container text-center"></i>
+                <i class="fas fa-route container text-center" style="height: 10%; "></i>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat architecto voluptate et expedita
                     earum, ab corporis iure soluta id pariatur? Eveniet repudiandae blanditiis, quidem impedit nemo at
                     quibusdam non quas! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta eos saepe
@@ -109,12 +114,11 @@
                     maiores, totam excepturi. Aliquam possimus consequuntur adipisci commodi esse harum?</p>
             </div>
         </div>
-
     </section>
 
-    <section class="container">
+    <section class="container pt-5" style="margin-top: 40px;">
         <div class="text-center text-white">
-            <h1>Destacados</h1>
+            <h3 id="destacados">Destacados</h3>
             <hr class="hero-line container" style="background-color: cyan; margin:auto; width: 100vw; height: 2px;">
         </div>
         <div class="row pt-3" style="margin-top: 5px;">
@@ -122,9 +126,11 @@
                 <div class="card col-3">
                     <img src="./assets/img/card1.jpg" class="card-img-top imgcard" alt="...">
                     <div class="card-body" style="background-color: #3cc4d4;">
-                        <h5 class="card-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat dolores
+                        <h5 class="card-title" style="color: white;">Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Placeat dolores
                             nisi natus. Iure</h5>
-                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium earum
+                        <p class="card-text" style="color: white;">Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Laudantium earum
                             nihil rerum blanditiis enim autem, culpa quia vitae quod quas, iu</p>
                     </div>
                 </div>
@@ -132,15 +138,17 @@
                     <img src="./assets/img/card2.jpg" class="card-img-top imgcard" alt="...">
                     <div class="card-body" style="background-color: #3cc4d4;">
                         <h5 class="card-title" style="color: white;">Lorem dolor </h5>
-                        <p class="card-text" style="color: white;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium earum
+                        <p class="card-text" style="color: white;">Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Laudantium earum
                             nihil rerum bland</p>
                     </div>
                 </div>
                 <div class="card col-3">
                     <img src="./assets/img/card3.jpg" class="card-img-top imgcard" alt="...">
-                    <div class="card-body"  style="background-color: #3cc4d4;">
+                    <div class="card-body" style="background-color: #3cc4d4;">
                         <h5 class="card-title" style="color: white;">Lorem ipsum dolor </h5>
-                        <p class="card-text" style="color: white;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium earum
+                        <p class="card-text" style="color: white;">Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Laudantium earum
                             nihil rerum </p>
                     </div>
                 </div>
@@ -148,18 +156,43 @@
                     <img src="./assets/img/card4.jpg" class="card-img-top imgcard" alt="...">
                     <div class="card-body" style="background-color: #3cc4d4;">
                         <h5 class="card-title" style="color: white;">Lorem ipsum </h5>
-                        <p class="card-text" style="color: white;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                        <p class="card-text" style="color: white;">Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. </p>
                     </div>
                 </div>
             </div>
     </section>
-    <section class="container">
-        <footer>
-            <div>
-                <h1>shiao</h1>
-            </div>
-        </footer>
+
+    <section  class="pt-5">
+        <div class="text-center text-white" style="margin-bottom: 5px;">
+            <h3 id="contacto">Contacto</h3>
+            <hr class="hero-line container" style="background-color: cyan; margin:auto; width: 100vw; height: 2px;">
+        </div>
+        <div class="typeform-widget container"
+            data-url="https://form.typeform.com/to/qeggbH8B?typeform-medium=embed-snippet"
+            style="width: 100%; height: 500px;"></div>
+        <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })()</script>
     </section>
+
+    
+    <footer id="Footer" class="container text-center text-white py-5" style="margin-top: 20px; height: 10px;">
+        <div class="container" style="height: 10px;">
+            <section>
+                 <div class="row">
+                    <div class="col-sm-6">
+                        <h4 id="saludo" class="text-center"> VIAJES CHILE</h4>
+                    </div>
+        <div class="col-sm-6">
+        <i class="fab fa-github 3x mx-2"></i></a>
+        <i class="fab fa-linkedin-in 3x mx-2"></i></a>
+        <i class="fab fa-twitter 3x mx-2"></i>
+        <i class="fab fa-facebook-f 3x mx-2"></i>
+    </div>
+</div>
+</section>
+</footer>
+
+
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
@@ -168,6 +201,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
-</body>
+        <script src="assets/js/script.js"></script>
+    </body>
 
 </html>
