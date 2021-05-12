@@ -1,4 +1,173 @@
-<html>
-<head></head>
-<body></body>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,400&family=Oswald:wght@200;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Viajes Chile</title>
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-white bg-transparent">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="./assets/img/viajes.svg" alt="" style="width: 5%;"> Viajes
+                    Chile</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Destacados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="border: 100vh;">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+            </a>
+        </div>
+    </div>
+    <header id="Hero-Section">
+        <div class="text-center text-white">
+            <h1>¿Quienes somos?</h1>
+            <hr class="hero-line container" style="background-color: cyan; margin:auto;">
+        </div>
+    </header>
+
+
+    <section class="pt-5 d-none d-sm-block container" id="Sobre-mi">
+        <div class="row pt-3">
+            <div class="col-4">
+                <i class="fas fa-plane container text-center" ></i>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat architecto voluptate et expedita
+                    earum, ab corporis iure soluta id pariatur? Eveniet repudiandae blanditiis, quidem impedit nemo at
+                    quibusdam non quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Et minus hic laboriosam
+                    omnis similique vero. Quam, nisi! Nam maiores vel placeat accusamus officiis. Ullam, sint sapiente.
+                    Quam reprehenderit enim <repudiandae class="lorem"></repudiandae>
+                </p>
+            </div>
+            <div class="col-4">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat architecto voluptate et expedita
+                    earum, ab corporis iure soluta id pariatur? Eveniet repudiandae blanditiis, quidem impedit nemo at
+                    quibusdam non quas! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta eos saepe
+                    laudantium earum nam, voluptate doloribus suscipit eveniet reprehenderit in magnam quae, eum illo
+                    ipsum tempora reiciendis nemo. Assumenda, asperiores?Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Amet qui facere labore vel, id, nemo temporibus saepe tenetur distinctio assumenda
+                    maiores, totam excepturi. Aliquam possimus consequuntur adipisci commodi esse harum?</p>
+                <i class="fas fa-mountain container text-center"></i>
+            </div>
+            <div class="col-4">
+                <i class="fas fa-route container text-center"></i>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat architecto voluptate et expedita
+                    earum, ab corporis iure soluta id pariatur? Eveniet repudiandae blanditiis, quidem impedit nemo at
+                    quibusdam non quas! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta eos saepe
+                    laudantium earum nam, voluptate doloribus suscipit eveniet reprehenderit in magnam quae, eum illo
+                    ipsum tempora reiciendis nemo. Assumenda, asperiores?Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Amet qui facere labore vel, id, nemo temporibus saepe tenetur distinctio assumenda
+                    maiores, totam excepturi. Aliquam possimus consequuntur adipisci commodi esse harum?</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="container">
+        <div class="text-center text-white">
+            <h1>Destacados</h1>
+            <hr class="hero-line container" style="background-color: cyan; margin:auto; width: 100vw; height: 2px;">
+        </div>
+        <div class="row pt-3" style="margin-top: 5px;">
+            <div class="card-group">
+                <div class="card col-3">
+                    <img src="./assets/img/card1.jpg" class="card-img-top imgcard" alt="...">
+                    <div class="card-body" style="background-color: #3cc4d4;">
+                        <h5 class="card-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat dolores
+                            nisi natus. Iure</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium earum
+                            nihil rerum blanditiis enim autem, culpa quia vitae quod quas, iu</p>
+                    </div>
+                </div>
+                <div class="card col-3">
+                    <img src="./assets/img/card2.jpg" class="card-img-top imgcard" alt="...">
+                    <div class="card-body" style="background-color: #3cc4d4;">
+                        <h5 class="card-title" style="color: white;">Lorem dolor </h5>
+                        <p class="card-text" style="color: white;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium earum
+                            nihil rerum bland</p>
+                    </div>
+                </div>
+                <div class="card col-3">
+                    <img src="./assets/img/card3.jpg" class="card-img-top imgcard" alt="...">
+                    <div class="card-body"  style="background-color: #3cc4d4;">
+                        <h5 class="card-title" style="color: white;">Lorem ipsum dolor </h5>
+                        <p class="card-text" style="color: white;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium earum
+                            nihil rerum </p>
+                    </div>
+                </div>
+                <div class="card col-3">
+                    <img src="./assets/img/card4.jpg" class="card-img-top imgcard" alt="...">
+                    <div class="card-body" style="background-color: #3cc4d4;">
+                        <h5 class="card-title" style="color: white;">Lorem ipsum </h5>
+                        <p class="card-text" style="color: white;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="container">
+        <footer>
+            <div>
+                <h1>shiao</h1>
+            </div>
+        </footer>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
