@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+
+#Sobre-mi {
+    color: #373a3c;
+}
+
+#Sobre-mi hr {
+    background-color: lightblue;
+    width: 150px;
+    height: 2px;
+}
+
+.imgcard {
+    height: 10rem;
+    overflow: hidden;
+    object-fit: cover;
+}
+i{
+    background-color: #3cc4d4; 
+    color:white;
+}
